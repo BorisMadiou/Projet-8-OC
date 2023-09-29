@@ -1,0 +1,68 @@
+@import '../../variables';
+
+.cards-container {
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    .card {
+        width: 30%;
+        background-color: #343635;
+        padding: 1rem;
+        border-radius: 2rem;
+        filter: grayscale(100%);
+        transition: all 0.2s ease;
+        opacity: 0.8;
+        &:hover {
+            filter: grayscale(0%);
+            transform: scale(1.05);
+            opacity: 1;
+        }
+        .cards-cover {
+            width: 100%;
+            object-fit: contain;
+            border-radius: 1.5rem;
+        }
+        .card-title {
+            font-size: 2rem;
+            font-family: $font-text;
+            color: #F5F5F3;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .cards-logos-container {
+            margin-top: 1rem;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .cards-logos {
+                width: 3rem;
+            }
+        }
+    } 
+}
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        font-size: 2rem;
+        font-family: $font-text;
+        color: #343635;
+        text-align: center; 
+    }
+    .project-fotos {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 10rem);
+        gap: 1rem;
+        
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+}

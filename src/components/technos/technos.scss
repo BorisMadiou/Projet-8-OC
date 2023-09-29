@@ -1,0 +1,81 @@
+@import '../../variables';
+
+.technos {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+        
+  
+    .technos-list {
+      width: 50%;
+      padding: 1rem;
+      margin-top: 2rem;
+      background-color: #343635;
+      padding: 2rem;
+      border-radius: 2rem;
+      transition: opacity 0.2s ease;
+      opacity: 0.8;
+      font-family: $font-text;
+        &:hover {
+            opacity: 1;
+        }
+  
+      h2 {
+        font-size: 2.5rem;
+        color: #F5F5F3;
+        text-align: center;
+      }
+  
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+  
+        li {
+          background-color: #F5F5F3;
+          color: #343635;
+          font-size: 1.5rem;
+          padding: 1rem;
+          border-radius: 1.5rem;
+          text-align: center;
+        }
+      }
+    }
+  
+    .technos-logos {
+      width: 50%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+  
+      .techno-logo {
+        display: flex;
+        justify-content: center;
+  
+        img {
+          max-width: 5rem;
+          filter: grayscale(100%);
+          transition: all 0.2s ease;
+          opacity: 0.8;
+  
+          &.hovered {
+            filter: grayscale(0%);
+            transform: scale(1.2);
+            opacity: 1;
+          }
+          &:hover {
+            filter: grayscale(0%);
+            transform: scale(1.2);
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  

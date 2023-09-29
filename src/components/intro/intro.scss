@@ -1,0 +1,23 @@
+@import '../../variables';
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 14rem;
+    h1 {
+        display: block;
+        width: 60%;
+        font-size: 3rem;
+        color: #F5F5F3;
+        font-family: $font-text;
+        background-color: #343635;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        opacity: 0.8;
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

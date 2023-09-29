@@ -1,0 +1,49 @@
+@import '../variables';
+
+.hello {
+    position: absolute;
+    margin-top: 20rem;
+    font-size: 16rem;
+    z-index: -1;
+    color: #ff44009b;
+    font-family: $font-title;
+}
+
+.my-work {
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 7rem;
+    font-size: 16rem;
+    z-index: -1;
+    color: #ff44009b;
+    font-family: $font-title;
+}
+
+.story {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 1rem;
+    font-size: 16rem;
+    z-index: -1;
+    color: #ff44009b;
+    font-family: $font-title;
+}
+
+.my-skills {
+    position: absolute;
+    margin-top: 3rem;
+    font-size: 16rem;
+    z-index: -1;
+    color: #ff44009b;
+    font-family: $font-title;
+}
+
+.my-technos {
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 20%;
+    font-size: 16rem;
+    z-index: -1;
+    color: #ff44009b;
+    font-family: $font-title;
+}

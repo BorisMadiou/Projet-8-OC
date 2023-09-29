@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.about {
+    width: 60%;
+    margin-top: 7rem;
+    background-color: #343635;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    opacity: 0.8;
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 1;
+        }
+    p {
+        color: #F5F5F3;
+        font-size: 2rem;
+        font-family: $font-text;
+    }
+}

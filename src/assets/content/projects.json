@@ -1,0 +1,127 @@
+{
+    "projects": [
+      {
+        "title": "Booki: Agence de voyage",
+        "cover":
+            { 
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-cover.png",
+                "description": ""
+            },
+        "logos": [
+            "/Projet-8-OC/src/assets/images/logos/logo-HTML.png",
+            "/Projet-8-OC/src/assets/images/logos/logo-CSS.png"
+                ],
+        "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "fotos": [
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-section-recherche-tri.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-section-hébergement.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-section-populaire.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-section-activités.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-mobile-1.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Booki/Booki-mobile-2.png",
+                "description": ""
+            }
+        ],
+        "githubRepo": "https://github.com/BorisMadiou/Projet_2_OC.git"
+      },
+      {
+        "title": "Portfolio de Sophie Bluel",
+        "cover":
+            { 
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-cover.png",
+                "description": ""
+            },
+        "logos": [
+            "/Projet-8-OC/src/assets/images/logos/logo-HTML.png",
+            "/Projet-8-OC/src/assets/images/logos/logo-CSS.png",
+            "/Projet-8-OC/src/assets/images/logos/logo-JS.png"
+                ],
+        "description": "Créez une page web dynamique avec JavaScript",
+        "fotos": [
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-section-projets.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-tri-appartements.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-connection.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-mode-édition.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-galerie-photo.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/SophieBluel/SophieBluel-ajout-photo.png",
+                "description": ""
+            }
+        ],
+        "githubRepo": "https://github.com/BorisMadiou/Projet_3_OC.git"
+      },
+      {
+        "title": "Kasa: Recherche de logements",
+        "cover":
+            { 
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-cover.png",
+                "description": ""
+            },
+        "logos": [
+            "/Projet-8-OC/src/assets/images/logos/logo-JS.png",
+            "/Projet-8-OC/src/assets/images/logos/logo-REACT.png",
+            "/Projet-8-OC/src/assets/images/logos/logo-SASS.png"
+                ],
+        "description": "Créez une application web de location immobilière avec React",
+        "fotos": [
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-appartements.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-logement.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-déscription.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-équipements.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-about.png",
+                "description": ""
+            },
+            {
+                "image":"/Projet-8-OC/src/assets/images/Kasa/Kasa-mobile.png",
+                "description": ""
+            }
+        ],
+        "githubRepo": "https://github.com/BorisMadiou/Projet_6_OC.git"
+      }
+    ]
+  }
+  

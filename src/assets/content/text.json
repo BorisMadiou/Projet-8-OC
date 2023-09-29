@@ -1,0 +1,97 @@
+{
+    "intro": {
+        "fr": "Bonjour, je suis Boris, développeur web front-end junior, explorant avec curiosité les possibilités de créer des expériences en ligne.",
+        "en": "Hello, I'm Boris, a junior front-end web developer, eagerly exploring the possibilities of creating online experiences."
+    },
+    "about": {
+        "fr": "En reconversion professionnelle depuis deux ans, j'ai acquis les bases du développement en autodidacte et suivi une formation complète en développement full-stack sur OpenClassrooms. Avant cela, j'ai exercé le métier de cordonnier pendant une décennie. Mon parcours inclut également un BTS en montage vidéo et post-production. Cette diversité d'expériences m'a permis d'acquérir des compétences variées et complémentaires, renforçant ainsi ma polyvalence en tant que développeur.",
+        "en": "I've been in the midst of a career change for two years, during which I acquired the fundamentals of development as a self-learner and completed a comprehensive full-stack development program on OpenClassrooms. Prior to that, I worked as a cobbler for a decade. My background also includes a BTS in video editing and post-production. This diversity of experiences has allowed me to acquire varied and complementary skills, enhancing my versatility as a developer."
+    },
+    "skills": {
+        "title": {
+            "fr": "Pendant ma reconversion, j'ai eu l'opportunité de développer un éventail de compétences :",
+            "en": "During my training, I had the opportunity to develop a range of skills:"
+        },
+        "fr": [
+            "Intégration de maquettes avec HTML et CSS",
+            "Création d'interfaces web responsive",
+            "Gestion de projets avec des outils de suivi",
+            "Rédaction de spécifications techniques",
+            "Utilisation de Git et Github pour la gestion de versions",
+            "Développement avec JavaScript",
+            "Création d'applications web avec React",
+            "Optimisation des performances de sites web",
+            "Stockage sécurisé de données",
+            "Déploiement de sites statiques en ligne"
+        ],
+        "en": [
+            "Integration of mockups with HTML and CSS",
+            "Creation of responsive web interfaces",
+            "Project management with tracking tools",
+            "Technical specifications writing",
+            "Use of Git and Github for version control",
+            "Development with JavaScript",
+            "Building web applications with React",
+            "Optimization of website performance",
+            "Secure data storage",
+            "Deployment of static sites online"
+        ]
+    },
+    "technologies":{
+        "title": "Voici les différentes technologies utilisées:",
+        "technos": [
+            {
+                "title": "HTML",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-HTML.png",
+                "rating": 2
+            },
+            {
+                "title": "CSS",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-CSS.png",
+                "rating": 2
+            },
+            {
+                "title": "JavaScript",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-JS.png",
+                "rating": 2
+            },
+            {
+                "title": "React",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-REACT.png",
+                "rating": 2
+            },
+            {
+                "title": "Sass",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-SASS.png",
+                "rating": 2
+            },
+            {
+                "title": "Node.js",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-NODEJS.png",
+                "rating": 1
+            },
+            {
+                "title": "MongoDb",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-MONGODB.png",
+                "rating": 1
+            },
+            {
+                "title": "Git",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-GIT.png",
+                "rating": 2
+            },
+            {
+                "title": "GitHub",
+                "logo": "/Projet-8-OC/src/assets/images/logos/logo-GITHUB.png",
+                "rating": 2
+            }
+            ]
+        },
+        "contact":{
+            "name":"Boris Madiou",
+            "adress":"1473 route des Bragades, 74130 Bonneville, France",
+            "mail":"borismadiou@gmail.com"
+        }
+      
+  }
+  

@@ -1,0 +1,30 @@
+@import '../../variables';
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .nav-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        a {
+            color: #F5F5F3;
+            background-color:  #343635;
+            text-decoration: none;
+            font-family: $font-text;
+            font-size: 1.2rem;
+            padding: 1rem;
+            border-radius: 1.5rem;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 1;
+        }
+        }
+    }
+}
