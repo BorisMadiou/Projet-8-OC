@@ -9,16 +9,16 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 2rem;
-        gap: 1.5rem;
+        margin-top: clamp(1rem, 3vw, 2rem);
+        gap: 2rem;
         flex-wrap: wrap;
         a {
-            color: #F5F5F3;
-            background-color:  #343635;
+            color: $light-gray;
+            background-color:  $dark-gray;
             text-decoration: none;
             font-family: $font-text;
-            font-size: 1.2rem;
-            padding: 1rem;
+            font-size: clamp(1rem, 1.8vw, 1.2rem);
+            padding: clamp(0.5rem, 1.5vw, 1rem);
             border-radius: 1.5rem;
             opacity: 0.8;
             transition: opacity 0.2s ease;

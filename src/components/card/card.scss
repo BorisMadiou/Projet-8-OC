@@ -1,18 +1,27 @@
 @import '../../variables';
 
 .cards-container {
-    margin-top: 13rem;
+    margin-top: clamp(1.5rem, 21vw ,13rem);
     display: flex;
     justify-content: space-between;
     gap: 3%;
+    @media (max-width:1024px) {
+        flex-direction: column;
+        align-items: center;
+        }
     .card {
         width: 30%;
-        background-color: #343635;
-        padding: 1rem;
+        background-color: $dark-gray;
+        padding: clamp(0.5rem, 1.5vw, 1rem);
         border-radius: 2rem;
         filter: grayscale(100%);
         transition: all 0.2s ease;
         opacity: 0.8;
+        cursor: pointer;
+        @media (max-width:1024px) {
+            width: 90%;
+            margin-top: 2rem;
+        }
         &:hover {
             filter: grayscale(0%);
             transform: scale(1.05);
@@ -26,43 +35,19 @@
         .card-title {
             font-size: 2rem;
             font-family: $font-text;
-            color: #F5F5F3;
+            color: $light-gray;
             margin-top: 1rem;
             text-align: center;
         }
         .cards-logos-container {
-            margin-top: 1rem;
-            
+            margin-top: clamp(0.5rem, 1.5vw, 1rem);
             display: flex;
             justify-content: space-around;
             align-items: center;
             
             .cards-logos {
-                width: 3rem;
+                width: clamp(1.5rem, 3.5vw, 2.9rem);
             }
         }
     } 
-}
-.project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2 {
-        font-size: 2rem;
-        font-family: $font-text;
-        color: #343635;
-        text-align: center; 
-    }
-    .project-fotos {
-        margin-top: 1rem;
-        display: grid;
-        grid-template-columns: repeat(3, 10rem);
-        gap: 1rem;
-        
-        img {
-            width: 100%;
-            object-fit: cover;
-        }
-    }
-
 }

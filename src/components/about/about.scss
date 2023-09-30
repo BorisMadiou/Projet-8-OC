@@ -2,18 +2,22 @@
 
 .about {
     width: 60%;
-    margin-top: 7rem;
-    background-color: #343635;
-    padding: 2rem;
+    margin-top: clamp(2rem, 9vw, 7rem);
+    background-color: $dark-gray;
+    padding: clamp(1rem, 3vw, 2rem);
     border-radius: 1.5rem;
     opacity: 0.8;
+    @media(max-width: 1024px) {
+        width: 100%;
+    }
         transition: opacity 0.2s ease;
         &:hover {
             opacity: 1;
         }
     p {
-        color: #F5F5F3;
-        font-size: 2rem;
+        color: $light-gray;
+        font-size: clamp(1rem, 3vw, 2rem);
         font-family: $font-text;
+        line-height: clamp(1.3rem, 3.1vw, 2.6rem);
     }
 }

@@ -2,20 +2,20 @@
 
 .hello {
     position: absolute;
-    margin-top: 20rem;
-    font-size: 16rem;
+    margin-top: clamp(7rem, 30vw ,20rem);
+    font-size: clamp(5rem, 18vw ,16rem);
     z-index: -1;
-    color: #ff44009b;
+    color: $orange;
     font-family: $font-title;
 }
 
 .my-work {
     position: absolute;
     margin-left: 9%;
-    margin-top: 7rem;
-    font-size: 16rem;
+    margin-top: clamp(2rem, 11vw ,7rem);
+    font-size: clamp(5rem, 18vw ,16rem);
     z-index: -1;
-    color: #ff44009b;
+    color: $orange;
     font-family: $font-title;
 }
 
@@ -23,27 +23,27 @@
     position: absolute;
     margin-left: 40%;
     margin-top: 1rem;
-    font-size: 16rem;
+    font-size: clamp(5rem, 18vw ,16rem);
     z-index: -1;
-    color: #ff44009b;
+    color: $orange;
     font-family: $font-title;
 }
 
 .my-skills {
     position: absolute;
-    margin-top: 3rem;
-    font-size: 16rem;
+    margin-top: clamp(1.5rem, 3.7vw, 3rem);
+    font-size: clamp(5rem, 18vw ,16rem);
     z-index: -1;
-    color: #ff44009b;
+    color: $orange;
     font-family: $font-title;
 }
 
 .my-technos {
     position: absolute;
-    margin-top: 3rem;
+    margin-top: clamp(1.5rem, 3.7vw, 3rem);
     margin-left: 20%;
-    font-size: 16rem;
+    font-size: clamp(5rem, 18vw ,16rem);
     z-index: -1;
-    color: #ff44009b;
+    color: $orange;
     font-family: $font-title;
 }

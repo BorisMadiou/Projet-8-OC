@@ -38,7 +38,12 @@
                 "description": ""
             }
         ],
-        "githubRepo": "https://github.com/BorisMadiou/Projet_2_OC.git"
+        "githubRepo": "https://github.com/BorisMadiou/Projet_2_OC.git",
+        "Le projet":"J'étais chargé de donner vie aux maquettes du site Booki. Avec l'aide de ma CTO Sarah et de l'UI designer Loïc, j'ai intégré l'interface du site en utilisant HTML et CSS. J'ai rencontré des défis liés à la mise en page responsive et à la gestion des images, mais j'ai réussi à les surmonter grâce à la documentation en ligne et à la persévérance. Ce projet a été une étape cruciale dans mon apprentissage du développement web.",
+        "Compétences acquises":[
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Implémenter une interface responsive avec HTML et CSS"
+        ]
       },
       {
         "title": "Portfolio de Sophie Bluel",
@@ -79,7 +84,13 @@
                 "description": ""
             }
         ],
-        "githubRepo": "https://github.com/BorisMadiou/Projet_3_OC.git"
+        "githubRepo": "https://github.com/BorisMadiou/Projet_3_OC.git",
+        "Le projet":"J'ai contribué au projet de conception du site portfolio d'une architecte d'intérieur en tant que développeur front-end. Mes principales missions étaient de créer une page de connexion pour l'administrateur et de développer une modale de téléchargement de médias. J'ai relevé ces défis en utilisant mes compétences en HTML, CSS, et JavaScript pour concevoir des interfaces conviviales et sécurisées, tout en respectant les besoins du client et les normes de sécurité.",
+        "Compétences acquises":[
+            "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+            "Manipuler les éléments du DOM avec JavaScript",
+            "Gérer les événements utilisateurs avec JavaScript"
+        ]
       },
       {
         "title": "Kasa: Recherche de logements",
@@ -120,7 +131,13 @@
                 "description": ""
             }
         ],
-        "githubRepo": "https://github.com/BorisMadiou/Projet_6_OC.git"
+        "githubRepo": "https://github.com/BorisMadiou/Projet_6_OC.git",
+        "Le projet":" En tant que développeur sur le projet Kasa, mon défi principal était de créer l'ensemble de l'application en utilisant React, tout en respectant les maquettes de Figma et les contraintes techniques de Kasa. Travailler sans les fonctionnalités de base de données a été un défi, mais j'ai utilisé des données factices extraites d'un fichier JSON pour contourner cette limitation. J'ai également dû gérer des contraintes fonctionnelles spécifiques, comme le comportement de la galerie de photos et des menus déroulants (Collapses). Malgré ces défis, j'ai réussi à développer une application fonctionnelle et conforme aux attentes de Kasa.",
+        "Compétences acquises":[
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Initialiser une application avec Create React App",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React"
+        ]
       }
     ]
   }

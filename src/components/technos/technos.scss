@@ -1,10 +1,10 @@
 @import '../../variables';
 
 .technos {
-    margin-top: 7rem;
+    margin-top:clamp(2rem, 9vw, 7rem);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
     
         
@@ -13,33 +13,38 @@
       width: 50%;
       padding: 1rem;
       margin-top: 2rem;
-      background-color: #343635;
-      padding: 2rem;
+      background-color: $dark-gray;
+      padding: clamp(1rem, 3vw, 2rem);
       border-radius: 2rem;
       transition: opacity 0.2s ease;
       opacity: 0.8;
       font-family: $font-text;
+      @media (max-width:1024px) {
+        width: auto;
+        margin: auto;
+        }
         &:hover {
             opacity: 1;
         }
   
       h2 {
-        font-size: 2.5rem;
-        color: #F5F5F3;
+        font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+        line-height: clamp(1.5rem, 3.5vw, 2.9rem);
+        color: $light-gray;
         text-align: center;
       }
   
       ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-        margin-top: 2rem;
+        gap: clamp(1rem, 3vw, 2rem);
+        margin-top: clamp(1rem, 3vw, 2rem);
   
         li {
-          background-color: #F5F5F3;
-          color: #343635;
-          font-size: 1.5rem;
-          padding: 1rem;
+          background-color: $light-gray;
+          color: $dark-gray;
+          font-size: clamp(1rem, 2vw, 1.5rem);
+          padding: clamp(0.5rem, 1.5vw, 1rem);
           border-radius: 1.5rem;
           text-align: center;
         }
@@ -53,6 +58,9 @@
       align-items: center;
       gap: 2rem;
       padding: 2rem;
+      @media (max-width:1024px) {
+        display: none;
+        }
   
       .techno-logo {
         display: flex;

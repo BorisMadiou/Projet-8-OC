@@ -1,32 +1,36 @@
 @import '../../variables';
 
 .skills {
-    margin: 8rem auto 0 auto;
-    background-color: #343635;
+    margin: clamp(2.5rem, 10vw, 8rem) auto 0 auto;
+    background-color: $dark-gray;
     padding: 2rem;
     border-radius: 2rem;
     width: 80%;
     font-family: $font-text;
     opacity: 0.8;
     transition: opacity 0.2s ease;
+    @media(max-width:1024px) {
+        width: auto;
+    }
         &:hover {
             opacity: 1;
         }
     h2 {
-        font-size: 2.5rem;
-        color: #F5F5F3;
+        font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+        line-height: clamp(1.5rem, 3.5vw, 2.9rem);
+        color: $light-gray;
         text-align: center;
     }
     ul {
-        padding: 2rem;
+        padding: clamp(1rem, 3vw, 2rem);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1.5rem;
+        grid-gap: clamp(1rem, 2vw, 1.5rem);
         li {
-            background-color: #F5F5F3;
-            color: #343635;
-            font-size: 1.5rem;
-            padding: 1rem;
+            background-color: $light-gray;
+            color: $dark-gray;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            padding: clamp(0.5rem, 1.5vw, 1rem);
             border-radius: 1.5rem;
             text-align: center;
         }

@@ -3,10 +3,10 @@ import './app.scss';
 import Header from '../components/header/Header';
 import Nav from '../components/nav/Nav';
 import Intro from '../components/intro/Intro.jsx';
+import Card from '../components/card/Card';
 import About from '../components/About/About';
 import Skills from '../components/skills/Skills';
 import Technos from '../components/technos/Tecnos';
-import Card from '../components/card/Card';
 import Contact from '../components/contact/Contact';
 
 
