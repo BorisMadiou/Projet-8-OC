@@ -42,47 +42,47 @@
         "technos": [
             {
                 "title": "HTML",
-                "logo": "./public/assets/images/logos/logo-HTML.png",
+                "logo": "./images/logos/logo-HTML.png",
                 "rating": 2
             },
             {
                 "title": "CSS",
-                "logo": "./public/assets/images/logos/logo-CSS.png",
+                "logo": "./images/logos/logo-CSS.png",
                 "rating": 2
             },
             {
                 "title": "JavaScript",
-                "logo": "./public/assets/images/logos/logo-JS.png",
+                "logo": "./images/logos/logo-JS.png",
                 "rating": 2
             },
             {
                 "title": "React",
-                "logo": "./public/assets/images/logos/logo-REACT.png",
+                "logo": "./images/logos/logo-REACT.png",
                 "rating": 2
             },
             {
                 "title": "Sass",
-                "logo": "./public/assets/images/logos/logo-SASS.png",
+                "logo": "./images/logos/logo-SASS.png",
                 "rating": 2
             },
             {
                 "title": "Node.js",
-                "logo": "./public/assets/images/logos/logo-NODEJS.png",
+                "logo": "./images/logos/logo-NODEJS.png",
                 "rating": 1
             },
             {
                 "title": "MongoDb",
-                "logo": "./public/assets/images/logos/logo-MONGODB.png",
+                "logo": "./images/logos/logo-MONGODB.png",
                 "rating": 1
             },
             {
                 "title": "Git",
-                "logo": "./public/assets/images/logos/logo-GIT.png",
+                "logo": "./images/logos/logo-GIT.png",
                 "rating": 2
             },
             {
                 "title": "GitHub",
-                "logo": "./public/assets/images/logos/logo-GITHUB.png",
+                "logo": "./images/logos/logo-GITHUB.png",
                 "rating": 2
             }
             ]

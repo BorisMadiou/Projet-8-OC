@@ -13,6 +13,7 @@ import Contact from './components/contact/Contact.jsx';
 import text from '../public/assets/content/text.json';
 import projects from '../public/assets/content/projects.json';
 
+
 function App() {
   return (
     <>

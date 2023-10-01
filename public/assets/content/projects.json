@@ -4,37 +4,37 @@
         "title": "Booki: Agence de voyage",
         "cover":
             { 
-                "image":"./public/assets/images/Booki/Booki-cover.png",
+                "image":"./images/Booki/Booki-cover.png",
                 "description": ""
             },
         "logos": [
-            "./public/assets/images/logos/logo-HTML.png",
-            "./public/assets/images/logos/logo-CSS.png"
+            "./images/logos/logo-HTML.png",
+            "./images/logos/logo-CSS.png"
                 ],
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
         "fotos": [
             {
-                "image":"./public/assets/images/Booki/Booki-section-recherche-tri.png",
+                "image":"./images/Booki/Booki-section-recherche-tri.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Booki/Booki-section-hébergement.png",
+                "image":"./images/Booki/Booki-section-hébergement.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Booki/Booki-section-populaire.png",
+                "image":"./images/Booki/Booki-section-populaire.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Booki/Booki-section-activités.png",
+                "image":"./images/Booki/Booki-section-activités.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Booki/Booki-mobile-1.png",
+                "image":"./images/Booki/Booki-mobile-1.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Booki/Booki-mobile-2.png",
+                "image":"./images/Booki/Booki-mobile-2.png",
                 "description": ""
             }
         ],
@@ -49,38 +49,38 @@
         "title": "Portfolio de Sophie Bluel",
         "cover":
             { 
-                "image":"./public/assets/images/SophieBluel/SophieBluel-cover.png",
+                "image":"./images/SophieBluel/SophieBluel-cover.png",
                 "description": ""
             },
         "logos": [
-            "./public/assets/images/logos/logo-HTML.png",
-            "./public/assets/images/logos/logo-CSS.png",
-            "./public/assets/images/logos/logo-JS.png"
+            "./images/logos/logo-HTML.png",
+            "./images/logos/logo-CSS.png",
+            "./images/logos/logo-JS.png"
                 ],
         "description": "Créez une page web dynamique avec JavaScript",
         "fotos": [
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-section-projets.png",
+                "image":"./images/SophieBluel/SophieBluel-section-projets.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-tri-appartements.png",
+                "image":"./images/SophieBluel/SophieBluel-tri-appartements.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-connection.png",
+                "image":"./images/SophieBluel/SophieBluel-connection.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-mode-édition.png",
+                "image":"./images/SophieBluel/SophieBluel-mode-édition.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-galerie-photo.png",
+                "image":"./images/SophieBluel/SophieBluel-galerie-photo.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/SophieBluel/SophieBluel-ajout-photo.png",
+                "image":"./images/SophieBluel/SophieBluel-ajout-photo.png",
                 "description": ""
             }
         ],
@@ -96,38 +96,38 @@
         "title": "Kasa: Recherche de logements",
         "cover":
             { 
-                "image":"./public/assets/images/Kasa/Kasa-cover.png",
+                "image":"./images/Kasa/Kasa-cover.png",
                 "description": ""
             },
         "logos": [
-            "./public/assets/images/logos/logo-JS.png",
-            "./public/assets/images/logos/logo-REACT.png",
-            "./public/assets/images/logos/logo-SASS.png"
+            "./images/logos/logo-JS.png",
+            "./images/logos/logo-REACT.png",
+            "./images/logos/logo-SASS.png"
                 ],
         "description": "Créez une application web de location immobilière avec React",
         "fotos": [
             {
-                "image":"./public/assets/images/Kasa/Kasa-appartements.png",
+                "image":"./images/Kasa/Kasa-appartements.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Kasa/Kasa-logement.png",
+                "image":"./images/Kasa/Kasa-logement.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Kasa/Kasa-déscription.png",
+                "image":"./images/Kasa/Kasa-déscription.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Kasa/Kasa-équipements.png",
+                "image":"./images/Kasa/Kasa-équipements.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Kasa/Kasa-about.png",
+                "image":"./images/Kasa/Kasa-about.png",
                 "description": ""
             },
             {
-                "image":"./public/assets/images/Kasa/Kasa-mobile.png",
+                "image":"./images/Kasa/Kasa-mobile.png",
                 "description": ""
             }
         ],
