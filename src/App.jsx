@@ -1,13 +1,13 @@
 import React from 'react';
 import './app.scss';
-import Header from '../components/header/Header.jsx';
-import Nav from '../components/nav/Nav.jsx';
-import Intro from '../components/intro/Intro.jsx';
-import Card from '../components/card/Card.jsx';
-import About from '../components/About/About.jsx';
-import Skills from '../components/skills/Skills.jsx';
-import Technos from '../components/technos/Tecnos.jsx';
-import Contact from '../components/contact/Contact.jsx';
+import Header from './components/header/Header.jsx';
+import Nav from './components/nav/Nav.jsx';
+import Intro from './components/intro/Intro.jsx';
+import Card from './components/card/Card.jsx';
+import About from './components/About/About.jsx';
+import Skills from './components/skills/Skills.jsx';
+import Technos from './components/technos/Tecnos.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 
 import text from '/Projet-8-OC/src/assets/content/text.json';
