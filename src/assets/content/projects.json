@@ -4,7 +4,7 @@
         "title": "Booki: Agence de voyage",
         "cover":
             { 
-                "image":"/assets/images/Booki/Booki-cover.png",
+                "image":"../src/assets/images/Booki/Booki-cover.png",
                 "description": ""
             },
         "logos": [
