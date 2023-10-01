@@ -10,8 +10,8 @@ import Technos from './components/technos/Tecnos.jsx';
 import Contact from './components/contact/Contact.jsx';
 
 
-import text from '../public/assets/content/text.json';
-import projects from '../public/assets/content/projects.json';
+import text from './assets/content/text.json';
+import projects from './assets/content/projects.json';
 
 
 function App() {
