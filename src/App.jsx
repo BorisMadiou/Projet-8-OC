@@ -4,7 +4,7 @@ import Header from './components/header/Header.jsx';
 import Nav from './components/nav/Nav.jsx';
 import Intro from './components/intro/Intro.jsx';
 import Card from './components/card/Card.jsx';
-import About from './components/About/About.jsx';
+import About from './components/about/About.jsx';
 import Skills from './components/skills/Skills.jsx';
 import Technos from './components/technos/Tecnos.jsx';
 import Contact from './components/contact/Contact.jsx';
