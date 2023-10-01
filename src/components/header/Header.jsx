@@ -1,12 +1,13 @@
 import React from "react";
 import './header.scss'
+import headerImage from '../../assets/images/header.jpg';
 
 function Header() {
   return (
     <header className="header">
       <img
-        src="/Projet-8-OC/src/assets/images/header.jpg"
-        alt="Description de l'image"
+        src={headerImage}
+        alt="Header"
       />
     </header>
   );
