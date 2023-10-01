@@ -42,47 +42,47 @@
         "technos": [
             {
                 "title": "HTML",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-HTML.png",
+                "logo": "./public/assets/images/logos/logo-HTML.png",
                 "rating": 2
             },
             {
                 "title": "CSS",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-CSS.png",
+                "logo": "./public/assets/images/logos/logo-CSS.png",
                 "rating": 2
             },
             {
                 "title": "JavaScript",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-JS.png",
+                "logo": "./public/assets/images/logos/logo-JS.png",
                 "rating": 2
             },
             {
                 "title": "React",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-REACT.png",
+                "logo": "./public/assets/images/logos/logo-REACT.png",
                 "rating": 2
             },
             {
                 "title": "Sass",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-SASS.png",
+                "logo": "./public/assets/images/logos/logo-SASS.png",
                 "rating": 2
             },
             {
                 "title": "Node.js",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-NODEJS.png",
+                "logo": "./public/assets/images/logos/logo-NODEJS.png",
                 "rating": 1
             },
             {
                 "title": "MongoDb",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-MONGODB.png",
+                "logo": "./public/assets/images/logos/logo-MONGODB.png",
                 "rating": 1
             },
             {
                 "title": "Git",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-GIT.png",
+                "logo": "./public/assets/images/logos/logo-GIT.png",
                 "rating": 2
             },
             {
                 "title": "GitHub",
-                "logo": "/Projet-8-OC/src/assets/images/logos/logo-GITHUB.png",
+                "logo": "./public/assets/images/logos/logo-GITHUB.png",
                 "rating": 2
             }
             ]

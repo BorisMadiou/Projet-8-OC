@@ -1,6 +1,6 @@
 import React from "react";
 import './header.scss'
-import headerImage from '../../assets/images/header.jpg';
+import headerImage from '../../../public/assets/images/header.jpg';
 
 function Header() {
   return (

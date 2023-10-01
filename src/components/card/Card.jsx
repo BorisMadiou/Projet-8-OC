@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './card.scss';
 import Modal from '../modal/Modal';
 
-import bookiCover from '../../assets/images/Booki/Booki-cover.png';
-
 function Card({ projects }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
